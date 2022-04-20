@@ -27,10 +27,10 @@ public class MainController {
     }
 
 
-    @GetMapping("/personne")
+    @GetMapping("/person")
     public String personne(Model model) {
 
-        return "/personne";
+        return "person";
     }
 
 

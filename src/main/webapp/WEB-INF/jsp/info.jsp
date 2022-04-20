@@ -20,7 +20,7 @@
             <tbody>
                 <c:forEach items="${people}" var="person">
                     <tr>
-                        <td>${person.lastName}</td>
+                        <td> <a href="person?id=${person.id}">${person.lastName}</a></td>
                     </tr>
                 </c:forEach>
             </tbody>

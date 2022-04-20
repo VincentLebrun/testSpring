@@ -20,6 +20,6 @@ public class PersonService {
         return personRepository.findAll();
     }
     public List<Person> getAllMail(){
-        return personRepository.findMail();
+        return personRepository.findAllGmailPerson();
     }
 }

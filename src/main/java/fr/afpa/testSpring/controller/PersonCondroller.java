@@ -23,12 +23,12 @@ public class PersonCondroller {
 
         return "info";
     }
-    @GetMapping("/mail")
+    @GetMapping("/gmail")
     public String Mail(Model model){
         List<Person> email = personService.getAllMail();
         model.addAttribute("email", email);
         System.out.println(email);
-        return"mail";
+        return"gmail";
 
     }
 

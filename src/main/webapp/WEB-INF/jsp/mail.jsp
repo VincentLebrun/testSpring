@@ -16,7 +16,7 @@
     <tbody>
         <c:forEach items="${email}" var="person">
             <tr>
-                <td>${person.name}</td>
+                <td>${person.email}</td>
             </tr>
         </c:forEach>
     </tbody>
